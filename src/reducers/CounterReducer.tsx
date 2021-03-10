@@ -32,4 +32,4 @@ const childApp1 = createSlice({
 
 export const { childApp1_increment, childApp1_decrement, childApp1_setValue } = childApp1.actions
 
-export default childApp1.reducer
+export const childApp1_reducer = childApp1.reducer
